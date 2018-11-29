@@ -17,14 +17,7 @@ void setup() {
   pinMode(led_pin[1], OUTPUT);
   pinMode(led_pin[2], OUTPUT);
   
-  digitalWrite(led_pin[0], HIGH);
-  digitalWrite(led_pin[1], HIGH);
-  digitalWrite(led_pin[2], HIGH);
-  delay(2000);
-  digitalWrite(led_pin[0], LOW);
-  digitalWrite(led_pin[1], LOW);
-  digitalWrite(led_pin[2], LOW);
-
+  acendeLeds(2000);
   pinMode(buzzer, OUTPUT);
 
 }
