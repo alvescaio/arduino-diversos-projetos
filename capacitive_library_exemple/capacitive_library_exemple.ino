@@ -35,7 +35,7 @@ void setup()
   pinMode(led_pin[0], OUTPUT);
   pinMode(led_pin[1], OUTPUT);
   pinMode(led_pin[2], OUTPUT);
-  
+    
   acendeLeds(2000);  
   pinMode(buzzer, OUTPUT);
 
